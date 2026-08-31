@@ -1,0 +1,747 @@
+[
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.ApplicationModuleController",
+    "Method": "GetApplications",
+    "RelativePath": "api/admin/access/applications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.ApplicationModuleController",
+    "Method": "CreateApplication",
+    "RelativePath": "api/admin/access/applications",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Access.Requests.CreateApplicationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.ApplicationModuleController",
+    "Method": "UpdateApplication",
+    "RelativePath": "api/admin/access/applications/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Access.Requests.UpdateApplicationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.ApplicationModuleController",
+    "Method": "SetApplicationActive",
+    "RelativePath": "api/admin/access/applications/{id}/active",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.RoleAccessController",
+    "Method": "Modules",
+    "RelativePath": "api/admin/access/catalog/modules",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.RoleAccessController",
+    "Method": "CreateModule",
+    "RelativePath": "api/admin/access/catalog/modules",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Access.CreateAccessCatalogRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.RoleAccessController",
+    "Method": "Permissions",
+    "RelativePath": "api/admin/access/catalog/permissions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.RoleAccessController",
+    "Method": "CreatePermission",
+    "RelativePath": "api/admin/access/catalog/permissions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Access.CreateAccessCatalogRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.ApplicationModuleController",
+    "Method": "GetModules",
+    "RelativePath": "api/admin/access/modules",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "applicationId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.ApplicationModuleController",
+    "Method": "CreateModule",
+    "RelativePath": "api/admin/access/modules",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Access.Requests.CreateModuleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.ApplicationModuleController",
+    "Method": "UpdateModule",
+    "RelativePath": "api/admin/access/modules/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Access.Requests.UpdateModuleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.RoleAccessController",
+    "Method": "CreateRole",
+    "RelativePath": "api/admin/access/roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Access.CreateRoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.RoleAccessController",
+    "Method": "ReplaceAccess",
+    "RelativePath": "api/admin/access/roles/{roleId}/access",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Access.ReplaceRoleAccessRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.RoleAccessController",
+    "Method": "AssignUser",
+    "RelativePath": "api/admin/access/roles/{roleId}/users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Access.AssignRoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.AuditController",
+    "Method": "Search",
+    "RelativePath": "api/admin/audit/events",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "From",
+        "Type": "System.Nullable\u00601[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "To",
+        "Type": "System.Nullable\u00601[[System.DateTimeOffset, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EventName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SSO_Irica.Application.DTOs.Audit.AuditQueryResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "GetGenders",
+    "RelativePath": "api/admin/iam/genders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "CreateGender",
+    "RelativePath": "api/admin/iam/genders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Organization.Requests.CreateGenderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "UpdateGender",
+    "RelativePath": "api/admin/iam/genders/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Organization.Requests.UpdateGenderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "GetOrganizationTypes",
+    "RelativePath": "api/admin/iam/organization-types",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "CreateOrganizationType",
+    "RelativePath": "api/admin/iam/organization-types",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Organization.Requests.CreateOrganizationTypeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "UpdateOrganizationType",
+    "RelativePath": "api/admin/iam/organization-types/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Organization.Requests.UpdateOrganizationTypeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "SetOrganizationTypeActive",
+    "RelativePath": "api/admin/iam/organization-types/{id}/active",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "GetOrganizationUnits",
+    "RelativePath": "api/admin/iam/organization-units",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "CreateOrganizationUnit",
+    "RelativePath": "api/admin/iam/organization-units",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Organization.Requests.CreateOrganizationUnitRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "UpdateOrganizationUnit",
+    "RelativePath": "api/admin/iam/organization-units/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Organization.Requests.UpdateOrganizationUnitRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "SetOrganizationUnitActive",
+    "RelativePath": "api/admin/iam/organization-units/{id}/active",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "GetPositions",
+    "RelativePath": "api/admin/iam/positions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "CreatePosition",
+    "RelativePath": "api/admin/iam/positions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Organization.Requests.CreatePositionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "UpdatePosition",
+    "RelativePath": "api/admin/iam/positions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Organization.Requests.UpdatePositionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "SetPositionActive",
+    "RelativePath": "api/admin/iam/positions/{id}/active",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "GetUserPositions",
+    "RelativePath": "api/admin/iam/user-positions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "CreateUserPosition",
+    "RelativePath": "api/admin/iam/user-positions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Organization.Requests.CreateUserPositionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "UpdateUserPosition",
+    "RelativePath": "api/admin/iam/user-positions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Organization.Requests.UpdateUserPositionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.OrganizationManagementController",
+    "Method": "SetUserPositionActive",
+    "RelativePath": "api/admin/iam/user-positions/{id}/active",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.AuthController",
+    "Method": "AdminOnly",
+    "RelativePath": "api/auth/admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Auth.Requests.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SSO_Irica.Application.DTOs.Auth.Responses.TwoFactorChallengeResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.AuthController",
+    "Method": "Me",
+    "RelativePath": "api/auth/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SSO_Irica.Application.DTOs.Auth.Responses.UserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.AuthController",
+    "Method": "Refresh",
+    "RelativePath": "api/auth/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SSO_Irica.Application.DTOs.Auth.Responses.AuthResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Auth.Requests.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SSO_Irica.Application.DTOs.Auth.Responses.UserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SSO_Irica.Api.Controllers.AuthController",
+    "Method": "VerifyTwoFactor",
+    "RelativePath": "api/auth/verify-two-factor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SSO_Irica.Application.DTOs.Auth.Requests.VerifyTwoFactorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SSO_Irica.Application.DTOs.Auth.Responses.AuthResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
