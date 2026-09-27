@@ -6,5 +6,5 @@ public interface IRefreshTokenService
     Task<(Guid UserId, string NewRefreshToken)?> RotateAsync(
         string refreshToken,
         CancellationToken cancellationToken);
-    Task RevokeAsync(string refreshToken, CancellationToken cancellationToken);
+    Task<Guid?> RevokeAsync(string refreshToken, CancellationToken cancellationToken);
 }

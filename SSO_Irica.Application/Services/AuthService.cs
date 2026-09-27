@@ -51,7 +51,10 @@ public sealed class AuthService(
         }
 
         var developmentCode = await otp.SendAsync(user.Id, user.Mobile, cancellationToken);
-        return new TwoFactorChallengeResponse("A verification code was generated.", 120, developmentCode);
+        return new TwoFactorChallengeResponse("A verification code was generated.", 120, developmentCode)
+        {
+            UserId = user.Id
+        };
     }
 
     public async Task<AuthSession> VerifyTwoFactorAsync(VerifyTwoFactorRequest request, CancellationToken cancellationToken)
@@ -95,7 +98,7 @@ public sealed class AuthService(
             mapper.Map<UserResponse>(user));
     }
 
-    public Task RevokeRefreshTokenAsync(
+    public Task<Guid?> RevokeRefreshTokenAsync(
         string refreshToken,
         CancellationToken cancellationToken) =>
         refreshTokens.RevokeAsync(refreshToken, cancellationToken);

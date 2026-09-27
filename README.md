@@ -44,6 +44,11 @@ The frontend must send `credentials: "include"` when calling `/api/auth/refresh`
 dotnet run --project SSO_Irica.Api
 ```
 
+Configure `Kafka:BootstrapServers` (or `Kafka__BootstrapServers`), then create the
+`iam-audit` topic before running. Every API request publishes an audit event to Kafka;
+set `Audit:ModuleId` to the real IAM module ID when available (otherwise it is null
+in events). See `README-Docker-Kafka.md` for the message format and delivery limitations.
+
 The assembly and solution display names are `IAM.*`; the physical folder remains
 `SSO_Irica` for compatibility with existing project references.
 Default local URL: `http://localhost:5300`.

@@ -28,9 +28,9 @@ public sealed class InMemoryRefreshTokenService : IRefreshTokenService
         return (current.UserId, next);
     }
 
-    public Task RevokeAsync(string refreshToken, CancellationToken cancellationToken)
+    public Task<Guid?> RevokeAsync(string refreshToken, CancellationToken cancellationToken)
     {
-        tokens.TryRemove(refreshToken, out _);
-        return Task.CompletedTask;
+        return Task.FromResult(tokens.TryRemove(refreshToken, out var current)
+            ? (Guid?)current.UserId : null);
     }
 }

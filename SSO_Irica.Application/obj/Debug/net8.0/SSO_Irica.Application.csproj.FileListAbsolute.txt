@@ -28,3 +28,4 @@ D:\PROJ\Gomrok\NewTeam\IAM\SSO_Irica.Application\obj\Debug\net8.0\IAM.Applicatio
 D:\PROJ\Gomrok\NewTeam\IAM\SSO_Irica.Application\obj\Debug\net8.0\refint\IAM.Application.dll
 D:\PROJ\Gomrok\NewTeam\IAM\SSO_Irica.Application\obj\Debug\net8.0\IAM.Application.pdb
 D:\PROJ\Gomrok\NewTeam\IAM\SSO_Irica.Application\obj\Debug\net8.0\ref\IAM.Application.dll
+D:\PROJ\Gomrok\NewTeam\IAM\SSO_Irica.Application\obj\Debug\net8.0\SSO_Irica.Application.sourcelink.json

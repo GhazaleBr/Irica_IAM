@@ -16,9 +16,14 @@ var jwt = builder.Configuration.GetSection(JwtOptions.SectionName).Get<JwtOption
 
 builder.Services.AddSsoApplication();
 builder.Services.AddSsoInfrastructure(builder.Configuration);
+builder.Services.AddOptions<AuditOptions>()
+    .BindConfiguration(AuditOptions.SectionName)
+    .Validate(x => !string.IsNullOrWhiteSpace(x.ServiceName), "Audit:ServiceName is required.")
+    .Validate(x => x.ModuleId >= 0, "Audit:ModuleId cannot be negative.")
+    .ValidateOnStart();
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 builder.Services.AddProblemDetails();
-builder.Services.AddControllers()
+builder.Services.AddControllers(options => options.Filters.Add<AuditTargetFilter>())
     .ConfigureApiBehaviorOptions(options =>
     {
         options.InvalidModelStateResponseFactory = context =>
@@ -93,6 +98,7 @@ builder.Services.AddSwaggerGen(options =>
 
 var app = builder.Build();
 
+app.UseMiddleware<AuditMiddleware>();
 app.UseExceptionHandler();
 if (!app.Environment.IsDevelopment())
 {
@@ -109,7 +115,6 @@ app.UseCors("ReactLocalhost");
 app.UseRateLimiter();
 app.UseAuthentication();
 app.UseAuthorization();
-app.UseMiddleware<AuditMiddleware>();
 app.MapControllers();
 
 app.Run();

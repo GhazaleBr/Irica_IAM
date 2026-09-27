@@ -20,3 +20,4 @@ D:\PROJ\Gomrok\NewTeam\IAM\SSO_Irica.Domain\obj\Debug\net8.0\IAM.Domain.dll
 D:\PROJ\Gomrok\NewTeam\IAM\SSO_Irica.Domain\obj\Debug\net8.0\refint\IAM.Domain.dll
 D:\PROJ\Gomrok\NewTeam\IAM\SSO_Irica.Domain\obj\Debug\net8.0\IAM.Domain.pdb
 D:\PROJ\Gomrok\NewTeam\IAM\SSO_Irica.Domain\obj\Debug\net8.0\ref\IAM.Domain.dll
+D:\PROJ\Gomrok\NewTeam\IAM\SSO_Irica.Domain\obj\Debug\net8.0\SSO_Irica.Domain.sourcelink.json

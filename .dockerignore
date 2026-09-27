@@ -1,0 +1,6 @@
+.git
+.vs
+**/bin
+**/obj
+**/.vs
+**/node_modules

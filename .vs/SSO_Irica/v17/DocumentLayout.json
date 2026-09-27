@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|d:\\proj\\gomrok\\newteam\\iam\\sso_irica.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|solutionrelative:sso_irica.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|d:\\proj\\gomrok\\newteam\\iam\\sso_irica.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|solutionrelative:sso_irica.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|d:\\proj\\gomrok\\newteam\\iam\\sso_irica.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|solutionrelative:sso_irica.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|d:\\proj\\gomrok\\newteam\\iam\\sso_irica.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|solutionrelative:sso_irica.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|d:\\proj\\gomrok\\newteam\\iam\\sso_irica.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|solutionrelative:sso_irica.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{077BC6FC-6F6F-4629-B35D-FA2EB03B00F4}|SSO_Irica.Infrastructure\\SSO_Irica.Infrastructure.csproj|d:\\proj\\gomrok\\newteam\\iam\\sso_irica.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{077BC6FC-6F6F-4629-B35D-FA2EB03B00F4}|SSO_Irica.Infrastructure\\SSO_Irica.Infrastructure.csproj|solutionrelative:sso_irica.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{077BC6FC-6F6F-4629-B35D-FA2EB03B00F4}|SSO_Irica.Infrastructure\\SSO_Irica.Infrastructure.csproj|d:\\proj\\gomrok\\newteam\\iam\\sso_irica.infrastructure\\persistence\\roleaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -182,7 +190,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -201,24 +209,121 @@
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "SSO_Irica.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "SSO_Irica.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwDgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T10:24:09.327Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrganizationRecords.cs",
-              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\Entities\\OrganizationRecords.cs",
-              "RelativeDocumentMoniker": "SSO_Irica.Infrastructure\\Persistence\\Entities\\OrganizationRecords.cs",
-              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\Entities\\OrganizationRecords.cs",
-              "RelativeToolTip": "SSO_Irica.Infrastructure\\Persistence\\Entities\\OrganizationRecords.cs",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SSO_Irica.Api\\appsettings.Development.json",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\appsettings.Development.json",
+              "RelativeToolTip": "SSO_Irica.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-26T09:37:07.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrganizationValidators.cs",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Validators\\OrganizationValidators.cs",
+              "RelativeDocumentMoniker": "SSO_Irica.Application\\Validators\\OrganizationValidators.cs",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Validators\\OrganizationValidators.cs",
+              "RelativeToolTip": "SSO_Irica.Application\\Validators\\OrganizationValidators.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T16:04:44.415Z"
+              "WhenOpened": "2026-08-25T16:04:08.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorCatalog.cs",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Exceptions\\ErrorCatalog.cs",
+              "RelativeDocumentMoniker": "SSO_Irica.Application\\Exceptions\\ErrorCatalog.cs",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Exceptions\\ErrorCatalog.cs",
+              "RelativeToolTip": "SSO_Irica.Application\\Exceptions\\ErrorCatalog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T16:03:27.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Program.cs",
+              "RelativeDocumentMoniker": "SSO_Irica.Api\\Program.cs",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Program.cs",
+              "RelativeToolTip": "SSO_Irica.Api\\Program.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAApwHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T11:17:04.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrganizationManagementService.cs",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\OrganizationManagementService.cs",
+              "RelativeDocumentMoniker": "SSO_Irica.Infrastructure\\Persistence\\OrganizationManagementService.cs",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\OrganizationManagementService.cs",
+              "RelativeToolTip": "SSO_Irica.Infrastructure\\Persistence\\OrganizationManagementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T16:05:08.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "SSO_Irica.Api\\appsettings.json",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\appsettings.json",
+              "RelativeToolTip": "SSO_Irica.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-19T12:49:13.467Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "AccessConfiguration.cs",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\Configurations\\AccessConfiguration.cs",
+              "RelativeDocumentMoniker": "SSO_Irica.Infrastructure\\Persistence\\Configurations\\AccessConfiguration.cs",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\Configurations\\AccessConfiguration.cs",
+              "RelativeToolTip": "SSO_Irica.Infrastructure\\Persistence\\Configurations\\AccessConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T16:04:52.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "SSO_Irica.Api\\Dockerfile",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Dockerfile",
+              "RelativeToolTip": "SSO_Irica.Api\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-31T05:28:03.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AccessRecords.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\Entities\\AccessRecords.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Infrastructure\\Persistence\\Entities\\AccessRecords.cs",
@@ -231,91 +336,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "OrganizationValidators.cs",
-              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Validators\\OrganizationValidators.cs",
-              "RelativeDocumentMoniker": "SSO_Irica.Application\\Validators\\OrganizationValidators.cs",
-              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Validators\\OrganizationValidators.cs",
-              "RelativeToolTip": "SSO_Irica.Application\\Validators\\OrganizationValidators.cs",
+              "Title": "OrganizationRecords.cs",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\Entities\\OrganizationRecords.cs",
+              "RelativeDocumentMoniker": "SSO_Irica.Infrastructure\\Persistence\\Entities\\OrganizationRecords.cs",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\Entities\\OrganizationRecords.cs",
+              "RelativeToolTip": "SSO_Irica.Infrastructure\\Persistence\\Entities\\OrganizationRecords.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T16:04:08.414Z"
+              "WhenOpened": "2026-08-25T16:04:44.415Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ErrorCatalog.cs",
-              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Exceptions\\ErrorCatalog.cs",
-              "RelativeDocumentMoniker": "SSO_Irica.Application\\Exceptions\\ErrorCatalog.cs",
-              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Exceptions\\ErrorCatalog.cs",
-              "RelativeToolTip": "SSO_Irica.Application\\Exceptions\\ErrorCatalog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T16:03:27.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Program.cs",
-              "RelativeDocumentMoniker": "SSO_Irica.Api\\Program.cs",
-              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Program.cs",
-              "RelativeToolTip": "SSO_Irica.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T11:17:04.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrganizationManagementService.cs",
-              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\OrganizationManagementService.cs",
-              "RelativeDocumentMoniker": "SSO_Irica.Infrastructure\\Persistence\\OrganizationManagementService.cs",
-              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\OrganizationManagementService.cs",
-              "RelativeToolTip": "SSO_Irica.Infrastructure\\Persistence\\OrganizationManagementService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T16:05:08.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "SSO_Irica.Api\\appsettings.json",
-              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\appsettings.json",
-              "RelativeToolTip": "SSO_Irica.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-19T12:49:13.467Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AccessConfiguration.cs",
-              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\Configurations\\AccessConfiguration.cs",
-              "RelativeDocumentMoniker": "SSO_Irica.Infrastructure\\Persistence\\Configurations\\AccessConfiguration.cs",
-              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\Configurations\\AccessConfiguration.cs",
-              "RelativeToolTip": "SSO_Irica.Infrastructure\\Persistence\\Configurations\\AccessConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T16:04:52.441Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Dockerfile",
-              "RelativeDocumentMoniker": "SSO_Irica.Api\\Dockerfile",
-              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Dockerfile",
-              "RelativeToolTip": "SSO_Irica.Api\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-08-31T05:28:03.718Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "OrganizationConfiguration.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\Configurations\\OrganizationConfiguration.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Infrastructure\\Persistence\\Configurations\\OrganizationConfiguration.cs",
@@ -327,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "RoleAccessService.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\RoleAccessService.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Infrastructure\\Persistence\\RoleAccessService.cs",
@@ -339,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "OrganizationResponses.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\DTOs\\Organization\\Responses\\OrganizationResponses.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\DTOs\\Organization\\Responses\\OrganizationResponses.cs",
@@ -351,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "OrganizationRequests.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\DTOs\\Organization\\Requests\\OrganizationRequests.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\DTOs\\Organization\\Requests\\OrganizationRequests.cs",
@@ -363,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "RoleAccessDtos.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\DTOs\\Access\\RoleAccessDtos.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\DTOs\\Access\\RoleAccessDtos.cs",
@@ -375,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Abstractions\\IUserRepository.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\Abstractions\\IUserRepository.cs",
@@ -387,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "IOtpService.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Abstractions\\IOtpService.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\Abstractions\\IOtpService.cs",
@@ -399,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Mapping\\UserProfile.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\Mapping\\UserProfile.cs",
@@ -411,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\Services\\AuthService.cs",
@@ -423,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "LoginRequestValidator.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Validators\\LoginRequestValidator.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\Validators\\LoginRequestValidator.cs",
@@ -435,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "IJwtTokenService.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Abstractions\\IJwtTokenService.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\Abstractions\\IJwtTokenService.cs",
@@ -447,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Abstractions\\IAuthService.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\Abstractions\\IAuthService.cs",
@@ -459,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "IAuditLogger.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Abstractions\\IAuditLogger.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\Abstractions\\IAuditLogger.cs",
@@ -471,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "ISmsGateway.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Abstractions\\External\\ISmsGateway.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\Abstractions\\External\\ISmsGateway.cs",
@@ -483,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "AppException.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Exceptions\\AppException.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\Exceptions\\AppException.cs",
@@ -495,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "IIdentityVerificationClient.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Abstractions\\External\\IIdentityVerificationClient.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\Abstractions\\External\\IIdentityVerificationClient.cs",
@@ -507,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "RoleAccessController.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Controllers\\RoleAccessController.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Api\\Controllers\\RoleAccessController.cs",
@@ -519,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "OrganizationManagementController.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Controllers\\OrganizationManagementController.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Api\\Controllers\\OrganizationManagementController.cs",
@@ -531,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "AuditMiddleware.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Audit\\AuditMiddleware.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Api\\Audit\\AuditMiddleware.cs",
@@ -543,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "UserResponse.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\DTOs\\Auth\\Responses\\UserResponse.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\DTOs\\Auth\\Responses\\UserResponse.cs",
@@ -555,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "AuthResponse.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\DTOs\\Auth\\Responses\\AuthResponse.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\DTOs\\Auth\\Responses\\AuthResponse.cs",
@@ -567,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\DTOs\\Auth\\Requests\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\DTOs\\Auth\\Requests\\RegisterRequest.cs",
@@ -579,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "GlobalExceptionHandler.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\ExceptionHandling\\GlobalExceptionHandler.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Api\\ExceptionHandling\\GlobalExceptionHandler.cs",
@@ -591,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Api\\Controllers\\AuthController.cs",
@@ -603,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "RegisterRequestValidator.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Validators\\RegisterRequestValidator.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\Validators\\RegisterRequestValidator.cs",
@@ -615,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "IPasswordHasher.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\Abstractions\\IPasswordHasher.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Application\\Abstractions\\IPasswordHasher.cs",
@@ -627,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "MobileNumber.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Domain\\Identity\\ValueObjects\\MobileNumber.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Domain\\Identity\\ValueObjects\\MobileNumber.cs",
@@ -639,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "NationalCode.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Domain\\Identity\\ValueObjects\\NationalCode.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Domain\\Identity\\ValueObjects\\NationalCode.cs",
@@ -651,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "SsoUser.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Domain\\Identity\\SsoUser.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Domain\\Identity\\SsoUser.cs",
@@ -663,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "UserRole.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Domain\\Identity\\UserRole.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Domain\\Identity\\UserRole.cs",
@@ -675,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "Entity.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Domain\\Common\\Entity.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Domain\\Common\\Entity.cs",
@@ -687,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "DomainException.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Domain\\Common\\DomainException.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Domain\\Common\\DomainException.cs",
@@ -699,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "AggregateRoot.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Domain\\Common\\AggregateRoot.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Domain\\Common\\AggregateRoot.cs",
@@ -711,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "SsoSecurityOptions.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Security\\SsoSecurityOptions.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Infrastructure\\Security\\SsoSecurityOptions.cs",

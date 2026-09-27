@@ -24,6 +24,7 @@ public sealed class AuthController(
         CancellationToken cancellationToken)
     {
         var user = await authService.RegisterAsync(request, cancellationToken);
+        HttpContext.Items["AuditUserId"] = user.Id.ToString();
         return StatusCode(StatusCodes.Status201Created,
             user);
     }
@@ -33,7 +34,11 @@ public sealed class AuthController(
     public async Task<ActionResult<TwoFactorChallengeResponse>> Login(
         LoginRequest request,
         CancellationToken cancellationToken)
-        => Ok(await authService.LoginAsync(request, cancellationToken));
+    {
+        var challenge = await authService.LoginAsync(request, cancellationToken);
+        HttpContext.Items["AuditUserId"] = challenge.UserId.ToString();
+        return Ok(challenge);
+    }
 
     [HttpPost("verify-two-factor")]
     [AllowAnonymous]
@@ -42,6 +47,7 @@ public sealed class AuthController(
         CancellationToken cancellationToken)
     {
         var session = await authService.VerifyTwoFactorAsync(request, cancellationToken);
+        HttpContext.Items["AuditUserId"] = session.User.Id.ToString();
         SetRefreshCookie(session.RefreshToken);
         return Ok(new AuthResponse(session.AccessToken, session.User));
     }
@@ -62,6 +68,7 @@ public sealed class AuthController(
             return Unauthorized(new { code = SSO_Irica.Application.Exceptions.ErrorCatalog.InvalidRefreshToken, error = "Refresh token is invalid or expired." });
         }
 
+        HttpContext.Items["AuditUserId"] = session.User.Id.ToString();
         SetRefreshCookie(session.RefreshToken);
         return Ok(new AuthResponse(session.AccessToken, session.User));
     }
@@ -72,7 +79,8 @@ public sealed class AuthController(
     {
         if (Request.Cookies.TryGetValue(securityOptions.Value.RefreshTokenCookieName, out var refreshToken))
         {
-            await authService.RevokeRefreshTokenAsync(refreshToken, cancellationToken);
+            var userId = await authService.RevokeRefreshTokenAsync(refreshToken, cancellationToken);
+            if (userId.HasValue) HttpContext.Items["AuditUserId"] = userId.Value.ToString();
         }
 
         DeleteRefreshCookie();

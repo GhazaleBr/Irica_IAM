@@ -1,3 +1,4 @@
+using Confluent.Kafka;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -35,7 +36,11 @@ public static class DependencyInjection
                 "SsoSecurity:RefreshTokenDays must be between 1 and 30.")
             .ValidateOnStart();
         services.Configure<ExternalApiOptions>(configuration.GetSection(ExternalApiOptions.SectionName));
-        services.Configure<ElasticsearchOptions>(configuration.GetSection(ElasticsearchOptions.SectionName));
+        services.AddOptions<KafkaAuditOptions>()
+            .BindConfiguration(KafkaAuditOptions.SectionName)
+            .Validate(x => !string.IsNullOrWhiteSpace(x.BootstrapServers), "Kafka:BootstrapServers is required.")
+            .Validate(x => !string.IsNullOrWhiteSpace(x.Topic), "Kafka:Topic is required.")
+            .ValidateOnStart();
         services.AddHttpClient("identity-verification", client =>
         {
             var url = configuration[$"{ExternalApiOptions.SectionName}:IdentityVerificationBaseUrl"];
@@ -48,7 +53,13 @@ public static class DependencyInjection
             if (!string.IsNullOrWhiteSpace(url)) client.BaseAddress = new Uri(url);
             client.Timeout = TimeSpan.FromSeconds(10);
         });
-        services.AddHttpClient("elasticsearch", client => client.Timeout = TimeSpan.FromSeconds(3));
+        services.AddSingleton<IProducer<string, string>>(_ =>
+            new ProducerBuilder<string, string>(new ProducerConfig
+            {
+                BootstrapServers = configuration[$"{KafkaAuditOptions.SectionName}:BootstrapServers"],
+                EnableIdempotence = true,
+                MessageTimeoutMs = 5000
+            }).Build());
 
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IRoleAccessService, RoleAccessService>();
@@ -61,8 +72,7 @@ public static class DependencyInjection
         services.AddSingleton<IRefreshTokenService, InMemoryRefreshTokenService>();
         services.AddScoped<SSO_Irica.Application.Abstractions.External.IIdentityVerificationClient, HttpIdentityVerificationClient>();
         services.AddScoped<SSO_Irica.Application.Abstractions.External.ISmsGateway, HttpSmsGateway>();
-        services.AddScoped<IAuditLogger, ElasticsearchAuditLogger>();
-        services.AddScoped<IAuditQueryService, ElasticsearchAuditQueryService>();
+        services.AddSingleton<IAuditLogger, KafkaAuditLogger>();
         return services;
     }
 }
