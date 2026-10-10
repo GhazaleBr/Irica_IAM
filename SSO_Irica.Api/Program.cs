@@ -9,6 +9,7 @@ using SSO_Irica.Infrastructure;
 using SSO_Irica.Infrastructure.Security;
 using SSO_Irica.Api.ExceptionHandling;
 using SSO_Irica.Api.Audit;
+using SSO_Irica.Infrastructure.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 var jwt = builder.Configuration.GetSection(JwtOptions.SectionName).Get<JwtOptions>()
@@ -97,6 +98,7 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 var app = builder.Build();
+await app.Services.SeedDevelopmentAdminAsync(app.Environment, app.Configuration);
 
 app.UseMiddleware<AuditMiddleware>();
 app.UseExceptionHandler();

@@ -40,6 +40,9 @@ The frontend must send `credentials: "include"` when calling `/api/auth/refresh`
 
 ## Run
 
+Development startup provisions a local full administrator and organization defaults.
+See `README-Development-Admin.md` for login credentials, Portal access and seed behavior.
+
 ```powershell
 dotnet run --project SSO_Irica.Api
 ```

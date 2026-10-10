@@ -34,13 +34,10 @@ public sealed class UserRepository(SsoDbContext context) : IUserRepository
         var title = await (
             from assignment in context.UserRoles
             join role in context.Roles on assignment.RoleId equals role.Id
-            where assignment.UserId == user.Id && role.Title.ToLower() == "admin"
+            where assignment.UserId == user.Id && role.IsActive && role.Title.ToLower() == "admin"
             select role.Title).FirstOrDefaultAsync(cancellationToken);
 
-        if (title is not null)
-        {
-            user.SetRole(UserRole.Admin);
-        }
+        user.SetRole(title is not null ? UserRole.Admin : UserRole.User);
 
         return user;
     }
