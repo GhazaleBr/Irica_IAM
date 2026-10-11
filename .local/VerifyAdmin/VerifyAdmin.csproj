@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <ProjectReference Include="../../SSO_Irica.Infrastructure/SSO_Irica.Infrastructure.csproj" />
+    <Compile Include="../../../Portal_Admin_Back/src/PortalAdmin.Api/Setup/AuthorizationSetup.cs" Link="AuthorizationSetup.cs" />
+    <Compile Include="../../../Portal_Admin_Back/src/PortalAdmin.Api/Controllers/AdminActorResolver.cs" Link="AdminActorResolver.cs" />
+    <Compile Include="../../../Portal_Admin_Back/src/PortalAdmin.Application/MutationModels.cs" Link="MutationModels.cs" />
+    <Compile Include="../../../Portal_Admin_Back/src/PortalAdmin.Infrastructure/Mutations/ProvinceScopeGuard.cs" Link="ProvinceScopeGuard.cs" />
+  </ItemGroup>
+</Project>

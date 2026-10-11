@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|d:\\proj\\gomrok\\newteam\\iam\\sso_irica.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|solutionrelative:sso_irica.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|d:\\proj\\gomrok\\newteam\\iam\\sso_irica.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|solutionrelative:sso_irica.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\obj\\Debug\\net8.0\\SSO_Irica.Application.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SSO_Irica.Application\\obj\\Debug\\net8.0\\SSO_Irica.Application.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Domain\\obj\\Debug\\net8.0\\SSO_Irica.Domain.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SSO_Irica.Domain\\obj\\Debug\\net8.0\\SSO_Irica.Domain.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\obj\\Debug\\net8.0\\SSO_Irica.Infrastructure.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SSO_Irica.Infrastructure\\obj\\Debug\\net8.0\\SSO_Irica.Infrastructure.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{077BC6FC-6F6F-4629-B35D-FA2EB03B00F4}|SSO_Irica.Infrastructure\\SSO_Irica.Infrastructure.csproj|d:\\proj\\gomrok\\newteam\\iam\\sso_irica.infrastructure\\persistence\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{077BC6FC-6F6F-4629-B35D-FA2EB03B00F4}|SSO_Irica.Infrastructure\\SSO_Irica.Infrastructure.csproj|solutionrelative:sso_irica.infrastructure\\persistence\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{077BC6FC-6F6F-4629-B35D-FA2EB03B00F4}|SSO_Irica.Infrastructure\\SSO_Irica.Infrastructure.csproj|d:\\proj\\gomrok\\newteam\\iam\\sso_irica.infrastructure\\persistence\\developmentadminseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{077BC6FC-6F6F-4629-B35D-FA2EB03B00F4}|SSO_Irica.Infrastructure\\SSO_Irica.Infrastructure.csproj|solutionrelative:sso_irica.infrastructure\\persistence\\developmentadminseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PROJ\\Gomrok\\NewTeam\\IAM\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PROJ\\Gomrok\\NewTeam\\IAM\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PROJ\\Gomrok\\NewTeam\\IAM\\README-Development-Admin.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README-Development-Admin.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|d:\\proj\\gomrok\\newteam\\iam\\sso_irica.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|solutionrelative:sso_irica.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|d:\\proj\\gomrok\\newteam\\iam\\sso_irica.api\\audit\\auditmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|solutionrelative:sso_irica.api\\audit\\auditmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|d:\\proj\\gomrok\\newteam\\iam\\sso_irica.api\\audit\\audittargetfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|d:\\proj\\gomrok\\newteam\\iam\\sso_irica.api\\audit\\auditoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|solutionrelative:sso_irica.api\\audit\\auditoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|d:\\proj\\gomrok\\newteam\\iam\\sso_irica.api\\audit\\auditmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6902122-2052-4558-A81A-DB8E3E4F13C1}|SSO_Irica.Api\\SSO_Irica.Api.csproj|solutionrelative:sso_irica.api\\audit\\auditmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,45 +87,153 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "SSO_Irica.Api\\appsettings.json",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\appsettings.json",
+              "RelativeToolTip": "SSO_Irica.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-11T04:26:24.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SSO_Irica.Application.AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\obj\\Debug\\net8.0\\SSO_Irica.Application.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "SSO_Irica.Application\\obj\\Debug\\net8.0\\SSO_Irica.Application.AssemblyInfo.cs",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Application\\obj\\Debug\\net8.0\\SSO_Irica.Application.AssemblyInfo.cs",
+              "RelativeToolTip": "SSO_Irica.Application\\obj\\Debug\\net8.0\\SSO_Irica.Application.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T11:50:54.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SSO_Irica.Infrastructure.AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\obj\\Debug\\net8.0\\SSO_Irica.Infrastructure.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "SSO_Irica.Infrastructure\\obj\\Debug\\net8.0\\SSO_Irica.Infrastructure.AssemblyInfo.cs",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\obj\\Debug\\net8.0\\SSO_Irica.Infrastructure.AssemblyInfo.cs",
+              "RelativeToolTip": "SSO_Irica.Infrastructure\\obj\\Debug\\net8.0\\SSO_Irica.Infrastructure.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T11:50:42.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\UserRepository.cs",
+              "RelativeDocumentMoniker": "SSO_Irica.Infrastructure\\Persistence\\UserRepository.cs",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\UserRepository.cs",
+              "RelativeToolTip": "SSO_Irica.Infrastructure\\Persistence\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T11:50:40.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DevelopmentAdminSeeder.cs",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\DevelopmentAdminSeeder.cs",
+              "RelativeDocumentMoniker": "SSO_Irica.Infrastructure\\Persistence\\DevelopmentAdminSeeder.cs",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Infrastructure\\Persistence\\DevelopmentAdminSeeder.cs",
+              "RelativeToolTip": "SSO_Irica.Infrastructure\\Persistence\\DevelopmentAdminSeeder.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBkAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T11:42:21.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-10T11:50:12.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-10-10T11:50:11.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "README-Development-Admin.md",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\README-Development-Admin.md",
+              "RelativeDocumentMoniker": "README-Development-Admin.md",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\README-Development-Admin.md",
+              "RelativeToolTip": "README-Development-Admin.md",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-10T11:49:34.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "SSO_Irica.Api\\appsettings.Development.json",
               "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\appsettings.Development.json",
               "RelativeToolTip": "SSO_Irica.Api\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-10-10T11:35:00.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "SSO_Irica.Domain.AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Domain\\obj\\Debug\\net8.0\\SSO_Irica.Domain.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "SSO_Irica.Domain\\obj\\Debug\\net8.0\\SSO_Irica.Domain.AssemblyInfo.cs",
+              "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Domain\\obj\\Debug\\net8.0\\SSO_Irica.Domain.AssemblyInfo.cs",
+              "RelativeToolTip": "SSO_Irica.Domain\\obj\\Debug\\net8.0\\SSO_Irica.Domain.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T11:50:50.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Program.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Api\\Program.cs",
               "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Program.cs",
               "RelativeToolTip": "SSO_Irica.Api\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAGQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T11:34:53.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-10T11:34:53.903Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "AuditTargetFilter.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Audit\\AuditTargetFilter.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Api\\Audit\\AuditTargetFilter.cs",
               "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Audit\\AuditTargetFilter.cs",
               "RelativeToolTip": "SSO_Irica.Api\\Audit\\AuditTargetFilter.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwDIAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAADwvzIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T09:45:05.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T09:45:05.423Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "AuditOptions.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Audit\\AuditOptions.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Api\\Audit\\AuditOptions.cs",
@@ -101,13 +245,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "AuditMiddleware.cs",
               "DocumentMoniker": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Audit\\AuditMiddleware.cs",
               "RelativeDocumentMoniker": "SSO_Irica.Api\\Audit\\AuditMiddleware.cs",
               "ToolTip": "D:\\PROJ\\Gomrok\\NewTeam\\IAM\\SSO_Irica.Api\\Audit\\AuditMiddleware.cs",
               "RelativeToolTip": "SSO_Irica.Api\\Audit\\AuditMiddleware.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwD4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwD4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-29T09:36:22.938Z"
             }

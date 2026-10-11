@@ -16,7 +16,7 @@ TestResults/
 *.coveragexml
 
 # Local secrets and overrides
-.local/
+#.local/
 .env
 .env.*
 !.env.example
